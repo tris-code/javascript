@@ -23,3 +23,11 @@ public protocol JSValue {
     var isString: Bool { get }
     var isObject: Bool { get }
 }
+
+public enum Value {
+    case undefined
+    case string(String)
+    case number(Double)
+    case bool(Bool)
+    case null
+}
