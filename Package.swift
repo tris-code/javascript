@@ -7,9 +7,7 @@ let package = Package(
         .library(name: "JavaScript", targets: ["JavaScript"]),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/tris-code/test.git",
-            .branch("master"))
+        .package(path: "../Test")
     ],
     targets: [
         .target(
