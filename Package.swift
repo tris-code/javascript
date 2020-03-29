@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "JavaScript", targets: ["JavaScript"]),
     ],
     dependencies: [
-        .package(path: "../Test")
+        .package(path: "../test")
     ],
     targets: [
         .target(
